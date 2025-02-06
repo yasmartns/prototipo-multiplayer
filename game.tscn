@@ -97,5 +97,7 @@ offset_bottom = 650.0
 grow_horizontal = 2
 grow_vertical = 0
 
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+
 [connection signal="pressed" from="MultiplayerUI/Panel/Join" to="." method="_on_botao_join_pressed"]
 [connection signal="pressed" from="MultiplayerUI/Panel/Host" to="." method="_on_botao_host_pressed"]
