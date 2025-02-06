@@ -15,3 +15,9 @@ texture = ExtResource("2_kisf5")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(2, 0)
 shape = SubResource("RectangleShape2D_itwtw")
+
+[node name="NomeJogador" type="Label" parent="."]
+offset_left = -63.0
+offset_top = -103.0
+offset_right = 66.0
+offset_bottom = -70.0

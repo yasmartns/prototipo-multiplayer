@@ -1,7 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://c65lh1ugi65xi"]
+[gd_scene load_steps=4 format=3 uid="uid://c65lh1ugi65xi"]
 
 [ext_resource type="Script" path="res://game.gd" id="1_ycoo8"]
-[ext_resource type="PackedScene" uid="uid://b2pgqiqeuj7b5" path="res://player.tscn" id="2_omwha"]
 
 [sub_resource type="Theme" id="Theme_q1uly"]
 Label/font_sizes/font_size = 42
@@ -11,7 +10,6 @@ bg_color = Color(0.530628, 0.715081, 0.9009, 1)
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_ycoo8")
-player_scene = ExtResource("2_omwha")
 
 [node name="MultiplayerUI" type="Control" parent="."]
 layout_mode = 3
